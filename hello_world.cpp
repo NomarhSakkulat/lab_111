@@ -1,7 +1,10 @@
 #include <iostream>
-using namespace std; // плохая практика
+using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
+    string name;
+    cout << "NomarhSakkulat";
+    cin >> name;
+    cout << "Hello world from " << name << endl;
     return 0;
 }
